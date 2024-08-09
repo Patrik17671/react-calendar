@@ -1,0 +1,33 @@
+@import "src/styles/variables";
+
+.timeSelectContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.timeSelect {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	border: 1px solid $white;
+	border-radius: $general-radius;
+	color: $white;
+	font-size: 16px;
+	cursor: pointer;
+	position: relative;
+	
+	&.active {
+		background-color: $highlight-hour;
+	}
+	
+	.availability {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		font-size: 12px;
+		opacity: 0.7;
+	}
+}
