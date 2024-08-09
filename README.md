@@ -1,6 +1,6 @@
 ## Popis
 
-Data sa zabrazia v konzole po kliku na čas.
+Data sa zobrazia v konzole po kliku na čas.
 
 ## Usage
 
